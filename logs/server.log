@@ -3,11 +3,11 @@
 > vite
 
 
-  VITE v5.4.20  ready in 227 ms
+  VITE v5.4.20  ready in 229 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.8.181:3000/
-8:05:34 PM [vite] warning: The character ">" is not valid inside a JSX element
+8:07:27 PM [vite] warning: The character ">" is not valid inside a JSX element
 37 |                ))}
 38 |              </div>
 39 |              <p className="text-sm">Trusted by teams automating >10k calls monthly</p>
@@ -17,16 +17,3 @@
 
   Plugin: vite:esbuild
   File: /home/workspace/src/components/Hero.jsx
-8:05:35 PM [vite] ✨ new dependencies optimized: lucide-react, @splinetool/react-spline
-8:05:35 PM [vite] ✨ optimized dependencies changed. reloading
-8:05:35 PM [vite] warning: The character ">" is not valid inside a JSX element
-37 |                ))}
-38 |              </div>
-39 |              <p className="text-sm">Trusted by teams automating >10k calls monthly</p>
-   |                                                                 ^
-40 |            </div>
-41 |          </div>
-
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Hero.jsx
-The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
